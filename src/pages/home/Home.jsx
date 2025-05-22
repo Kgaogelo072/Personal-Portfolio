@@ -14,8 +14,9 @@ const Home = () => {
                     <span>I am Kgaogelo Tshabalala.</span> Full-stack developer
                 </h1>
                 <p className="home__description">
-                    I am a South African based full-stack developer focused on crafting clean & user-friendly experiences. I am passionate
-                    about buidling excellent software that adds practical value. 
+                Driven and versatile Junior Software Developer with a background in Mechanical Engineering and a proven ability to deliver full-stack solutions. 
+                Currently contributing to an AI-powered trade credit risk platform at Trade Shield. Skilled in Angular, .NET, SQL, and responsive web development. 
+                Passionate about solving real-world problems using scalable technologies. Strong communicator who thrives in Agile, cross-functional environments.
                 </p>
                 <Link to ="./about" className = "button">
                     More ABout Me{' '}

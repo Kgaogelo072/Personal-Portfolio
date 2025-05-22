@@ -73,7 +73,7 @@ export const personalInfo = [
   {
     id: 3,
     title: "Age : ",
-    description: "30 Years",
+    description: "32 Years",
   },
 
   {
@@ -91,13 +91,13 @@ export const personalInfo = [
   {
     id: 6,
     title: "Address : ",
-    description: "Mindrand, Johannesburg",
+    description: "Midrand, Johannesburg",
   },
 
   {
     id: 7,
     title: "Phone : ",
-    description: "079 015 6978",
+    description: "072 8945 924",
   },
 
   {
@@ -116,19 +116,19 @@ export const personalInfo = [
 export const stats = [
   {
     id: 1,
-    no: "6+",
-    title: "Months of <br /> Experience",
+    no: "1+",
+    title: "Years of <br /> Experience",
   },
 
   {
     id: 2,
-    no: "4+",
+    no: "3+",
     title: "Completed <br /> Projects",
   },
 
   {
     id: 3,
-    no: "0+",
+    no: "2+",
     title: "Happy <br /> Customers",
   },
 
@@ -144,51 +144,22 @@ export const resume = [
     id: 1,
     category: "experience",
     icon: <FaBriefcase />,
-    year: "Feb 2024 - April 2024",
-    title: "Web Development Internship <span> Code Alpha </span>",
-    desc: "Application of HTML, CSS, JavaScript, React.js, Node.js, and Epress.js to execute tasks as assigned by team leader",
+    year: "May 2024 - Present",
+    title: "Web Development Internship <span> Tradeshield </span>",
+    desc: "Contributing to the development of an AI-powered trade credit risk platform, helping businesses automate risk evaluations and reduce bad debt.Collaborating in cross-functional Agile teams with data scientists, engineers, and credit experts to deliver intelligent features and UI components.Supporting improvements in trade credit processes that led to measurable outcomes such as 75% faster credit approvals and 120% sales growth in the manufacturing sector. Gaining experience in full-stack development with a focus on Angular, .NET Core, and REST APIs within a fast-paced fintech startup. Part of a team funded by Vumela and Edge Growth, which secured $822K in seed funding to scale its AI platform.",
   },
 
   {
     id: 2,
     category: "experience",
     icon: <FaBriefcase />,
-    year: "May 2024 - Present",
-    title: "Web Development Internship <span> Tradeshield </span>",
-    desc: "Application of Angular, C#, .Net, and SQL to deliver quality software according to client and product-team requirements under the supervision of intermediate and senior developers",
-  },
-
-  {
-    id: 3,
-    category: "experience",
-    icon: <FaBriefcase />,
-    year: "Sep 2023 - Feb 2024",
-    title: "Junior Mechanical Engineering <span> HiNova </span>",
-    desc: "Computer-aided design, manufacturing process management, client relations, and procurement management",
-  },
-
-  {
-    id: 4,
-    category: "experience",
-    icon: <FaBriefcase />,
     year: "Sep 2021 - Sep 2023",
-    title:
-      "Editor of Science and Technology <span> Cactus Communications </span>",
+    title: "Editor of Science and Technology <span> Cactus Communications </span>",
     desc: "Editing of Scientific manuscripts for grammar and logic (Subject Areas: Electrical engineering and electronics, manufacturing, robotics, mechanical engineering, civil engineering, and structural",
   },
 
   {
-    id: 5,
-    category: "experience",
-    icon: <FaBriefcase />,
-    year: "Dec 2014 - Feb 2015",
-    title:
-      "Mechanical Engineering Vacation Work <span> Murray & Roberts </span>",
-    desc: "Project Planning and Coordination",
-  },
-
-  {
-    id: 6,
+    id: 3,
     category: "experience",
     icon: <FaBriefcase />,
     year: "Feb 2021 - Nov 2021",
@@ -197,42 +168,29 @@ export const resume = [
   },
 
   {
-    id: 7,
-    category: "experience",
-    icon: <FaBriefcase />,
-    year: "June 2018 - Feb 2019",
-    title:
-      "Mechanical Engineering Vacation Work <span> Vergenoeg Mining Company </span>",
-    desc: "Maintenance planning, computer-aided design, trackless bobile machinery servicing, process monitoring, ordering of parts, artisan assistant",
-  },
-
-  {
-    id: 8,
+    id: 4,
     category: "education",
     icon: <FaGraduationCap />,
     year: "2023",
-    title:
-      "BSc Mechanical Engineering (4th Year - Discontinued) <span> University of the Witwatersrand </span>",
-    desc: "Application of mechanicanics, thermodynamics, engineering mathematics, fluid mechanicals, and mechatronics principles to solve complex, open-ended problems",
+    title: "BSc Mechanical Engineering (Incomplete – Final Year Level) <span> University of the Witwatersrand </span>",
+    desc: "Application of mechanicanics, thermodynamics, engineering mathematics, fluid mechanicals, and mechatronics principles to solve complex, open-ended problems. Completed nearly all course requirements; only 3 modules outstanding due to financial challenges.",
   },
 
   {
-    id: 9,
+    id: 5,
     category: "education",
     icon: <FaGraduationCap />,
     year: "2023",
-    title:
-      "Complete Web Development Bootcamp Certificate of Completion <span> Udemy </span>",
-    desc: "Online courses and projects using HTML, CSS, Bootstrap, JavaScript, React.js, Node.js, APIs, Express.js, MongoDB, and SQL",
+    title: "Complete Web Development Bootcamp Certificate of Completion <span> Udemy </span>",
+    desc: "Online courses and projects using HTML, CSS, Bootstrap, JavaScript, React.js, Node.js, APIs, C#, entity framework, Angular, Express.js, MongoDB, and SQL",
   },
 
   {
-    id: 10,
+    id: 6,
     category: "education",
     icon: <FaGraduationCap />,
     year: "2023",
-    title:
-      "Deep Learning for Image Segmentation with Python and Pytorch <span> Udemy </span>",
+    title: "Deep Learning for Image Segmentation with Python and Pytorch <span> Udemy </span>",
     desc: "Application of Convolutional Neural Networks for Semantic Segmentation Applications using Python and Pytorch",
   },
 ];
@@ -265,7 +223,7 @@ export const skills = [
   {
     id: 5,
     title: "React",
-    percentage: "50",
+    percentage: "70",
   },
 
   {
@@ -283,23 +241,17 @@ export const skills = [
   {
     id: 8,
     title: "Node.js",
-    percentage: "40",
+    percentage: "70",
   },
 
   {
     id: 9,
     title: "Express.js",
-    percentage: "40",
+    percentage: "70",
   },
 
   {
     id: 10,
-    title: "MongoDB",
-    percentage: "20",
-  },
-
-  {
-    id: 11,
     title: "SQL",
     percentage: "60",
   },
