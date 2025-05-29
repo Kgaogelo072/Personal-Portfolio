@@ -12,9 +12,7 @@ import { FiFileText, FiUser, FiExternalLink } from "react-icons/fi";
 import Work1 from "./assets/project-1.jpg";
 import Work2 from "./assets/project-2.jpg";
 import Work3 from "./assets/project-3.jpg";
-import Work4 from "./assets/project-4.jpg";
-import Work5 from "./assets/project-5.jpg";
-import Work6 from "./assets/project-6.jpg";
+
 
 import Theme1 from "./assets/purple.png";
 import Theme2 from "./assets/red.png";
@@ -73,7 +71,7 @@ export const personalInfo = [
   {
     id: 3,
     title: "Age : ",
-    description: "32 Years",
+    description: "31 Years",
   },
 
   {
@@ -241,13 +239,13 @@ export const skills = [
   {
     id: 8,
     title: "Node.js",
-    percentage: "70",
+    percentage: "40",
   },
 
   {
     id: 9,
     title: "Express.js",
-    percentage: "70",
+    percentage: "40",
   },
 
   {
@@ -332,50 +330,6 @@ export const portfolio = [
         icon: <FiExternalLink />,
         title: "Preview : ",
         desc: "https://elaborate-piroshki-b65952.netlify.app/",
-      },
-    ],
-  },
-
-  {
-    id: 4,
-    img: Work4,
-    title: "To-do list",
-    details: [
-      {
-        icon: <FiFileText />,
-        title: "To-do list Task: ",
-        desc: "Code Alpha Interneship",
-      },
-
-      {
-        icon: <FaCode />,
-        title: "Language : ",
-        desc: "HTML, CSS, JavaScript React, Node.js, Express.js, SQL",
-      },
-      {
-        icon: <FiExternalLink />,
-        title: "Preview : ",
-        desc: "https://melodious-kringle-98091b.netlify.app/",
-      },
-    ],
-  },
-
-  {
-    id: 5,
-    img: Work5,
-    title: "Landing Page",
-    details: [
-      {
-        title: "Landing Page : ",
-        desc: "Personal Project",
-      },
-      {
-        title: "Language : ",
-        desc: "HTML, CSS, JavaScript",
-      },
-      {
-        title: "Preview : ",
-        desc: "https://lovely-crumble-b28a87.netlify.app/",
       },
     ],
   },
