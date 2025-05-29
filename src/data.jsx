@@ -253,6 +253,12 @@ export const skills = [
     title: "SQL",
     percentage: "60",
   },
+
+  {
+    id: 11,
+    title: "Python",
+    percentage: "60",
+  },
 ];
 
 export const portfolio = [
