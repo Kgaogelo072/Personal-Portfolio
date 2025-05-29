@@ -259,7 +259,7 @@ export const portfolio = [
   {
     id: 1,
     img: Work1,
-    title: "Deep Learning",
+    title: "Machine Learning",
     details: [
       {
         icon: <FiFileText />,
@@ -267,7 +267,7 @@ export const portfolio = [
       },
       {
         icon: <FiUser />,
-        title: "Final year project",
+        title: "Final year research project",
       },
       {
         icon: <FaCode />,
@@ -276,8 +276,8 @@ export const portfolio = [
       },
       {
         icon: <FiExternalLink />,
-        title: "Preview : ",
-        desc: "https://drive.google.com/drive/folders/1RYRmS_Wn9dqgeEggWDoQqIJEOwm7-G4c?usp=sharing",
+        title: "GitHub Repository : ",
+        desc: "https://github.com/Kgaogelo072/Deep-Learning-Python-Research.git",
       },
     ],
   },
@@ -301,35 +301,35 @@ export const portfolio = [
       },
       {
         icon: <FiExternalLink />,
-        title: "Preview : ",
-        desc: "https://github.com/Kgaogelo072/Personal-portfolio.git",
+        title: "GitHub Repository : ",
+        desc: "https://github.com/Kgaogelo072/Personal-Portfolio.git",
       },
     ],
   },
   {
     id: 3,
     img: Work3,
-    title: "JavaScript Age Calculator",
+    title: "Basic Login and Authentication",
     details: [
       {
         icon: <FiFileText />,
-        title: "Internship Task : ",
-        desc: "Website",
+        title: "Personal Project : ",
+        desc: "Website Application",
       },
       {
         icon: <FiUser />,
-        title: "Company : ",
-        desc: "Code Alpha",
+        title: "Personal Project : ",
+        desc: "Basic Login and Authentication",
       },
       {
         icon: <FaCode />,
         title: "Languages : ",
-        desc: "HTML, CSS, and JavaScript",
+        desc: "Angular17, .Net, and Entity Framework, and SQL",
       },
       {
         icon: <FiExternalLink />,
-        title: "Preview : ",
-        desc: "https://elaborate-piroshki-b65952.netlify.app/",
+        title: "GitHub Repository : ",
+        desc: "https://github.com/Kgaogelo072/DattingApp.git",
       },
     ],
   },
