@@ -15,7 +15,7 @@ const Home = () => {
                 </h1>
                 <p className="home__description">
                 Driven and versatile Junior Software Developer with a background in Mechanical Engineering and a proven ability to deliver full-stack solutions. 
-                Currently contributing to an AI-powered trade credit risk platform at Trade Shield. Skilled in Angular, .NET, SQL, and responsive web development. 
+                Currently contributing to an AI-powered trade credit risk platform at Trade Shield. Skilled in Angular, React, Javascript, .NET, SQL, and responsive web development. 
                 Passionate about solving real-world problems using scalable technologies. Strong communicator who thrives in Agile, cross-functional environments.
                 </p>
                 <Link to ="./about" className = "button">

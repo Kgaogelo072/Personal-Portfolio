@@ -12,6 +12,7 @@ import { FiFileText, FiUser, FiExternalLink } from "react-icons/fi";
 import Work1 from "./assets/project-1.jpg";
 import Work2 from "./assets/project-2.jpg";
 import Work3 from "./assets/project-3.jpg";
+import Work4 from "./assets/project-4.jpg";
 
 
 import Theme1 from "./assets/purple.png";
@@ -142,13 +143,20 @@ export const resume = [
     id: 1,
     category: "experience",
     icon: <FaBriefcase />,
-    year: "May 2024 - Present",
+    year: "May 2024 - June 2025",
     title: "Web Development Internship <span> Tradeshield </span>",
     desc: "Contributing to the development of an AI-powered trade credit risk platform, helping businesses automate risk evaluations and reduce bad debt.Collaborating in cross-functional Agile teams with data scientists, engineers, and credit experts to deliver intelligent features and UI components.Supporting improvements in trade credit processes that led to measurable outcomes such as 75% faster credit approvals and 120% sales growth in the manufacturing sector. Gaining experience in full-stack development with a focus on Angular, .NET Core, and REST APIs within a fast-paced fintech startup. Part of a team funded by Vumela and Edge Growth, which secured $822K in seed funding to scale its AI platform.",
   },
-
-  {
+    {
     id: 2,
+    category: "experience",
+    icon: <FaBriefcase />,
+    year: "October 2024 - Present",
+    title: "Founder <span>Code Orbit (www.codeorbit.co.za)</span>",
+    desc: "Software consulting company. Building of custom software according to client specifications",
+  },
+  {
+    id: 3,
     category: "experience",
     icon: <FaBriefcase />,
     year: "Sep 2021 - Sep 2023",
@@ -157,7 +165,7 @@ export const resume = [
   },
 
   {
-    id: 3,
+    id: 4,
     category: "experience",
     icon: <FaBriefcase />,
     year: "Feb 2021 - Nov 2021",
@@ -166,7 +174,7 @@ export const resume = [
   },
 
   {
-    id: 4,
+    id: 5,
     category: "education",
     icon: <FaGraduationCap />,
     year: "2023",
@@ -175,7 +183,7 @@ export const resume = [
   },
 
   {
-    id: 5,
+    id: 6,
     category: "education",
     icon: <FaGraduationCap />,
     year: "2023",
@@ -184,7 +192,7 @@ export const resume = [
   },
 
   {
-    id: 6,
+    id: 7,
     category: "education",
     icon: <FaGraduationCap />,
     year: "2023",
@@ -214,7 +222,7 @@ export const skills = [
 
   {
     id: 4,
-    title: "Angular 17",
+    title: "Angular",
     percentage: "70",
   },
 
@@ -330,12 +338,39 @@ export const portfolio = [
       {
         icon: <FaCode />,
         title: "Languages : ",
-        desc: "Angular17, .Net, and Entity Framework, and SQL",
+        desc: "Angular, .Net, and Entity Framework, and SQL",
       },
       {
         icon: <FiExternalLink />,
         title: "GitHub Repository : ",
         desc: "https://github.com/Kgaogelo072/DattingApp.git",
+      },
+    ],
+  },
+  {
+    id: 3,
+    img: Work4,
+    title: "Software consulting website",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Personal Project : ",
+        desc: "Website Application",
+      },
+      {
+        icon: <FiUser />,
+        title: "Description : ",
+        desc: "Software consulting website",
+      },
+      {
+        icon: <FaCode />,
+        title: "Languages : ",
+        desc: "HTML, CSS, Javascript, Boostrap",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "website link : ",
+        desc: "www.codeorbit.co.za",
       },
     ],
   },
