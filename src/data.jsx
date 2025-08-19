@@ -13,6 +13,7 @@ import Work1 from "./assets/project-1.jpg";
 import Work2 from "./assets/project-2.jpg";
 import Work3 from "./assets/project-3.jpg";
 import Work4 from "./assets/project-4.jpg";
+import Work5 from "./assets/project-5.jpg";
 
 
 import Theme1 from "./assets/purple.png";
@@ -282,11 +283,12 @@ export const portfolio = [
       {
         icon: <FiUser />,
         title: "Final year research project",
+        desc: "semantic segmentation research project focused on analyzing the performance of deep learning algorithms under different illumination conditions, particularly for autonomous vehicle applications. The project investigates how changes in lighting affect the accuracy and robustness of semantic segmentation models",
       },
       {
         icon: <FaCode />,
         title: "Language : ",
-        desc: "Python",
+        desc: "Python (primary programming language), Jupyter Notebook (Research.ipynb), TensorFlow/Keras or PyTorch (deep learning framework), OpenCV and PIL/Pillow (image processing), NumPy and Pandas (data manipulation), Matplotlib and Seaborn (visualization), Scikit-learn (evaluation metrics)",
       },
       {
         icon: <FiExternalLink />,
@@ -307,11 +309,12 @@ export const portfolio = [
       {
         icon: <FiUser />,
         title: "Personal Project",
+        desc: "React single-page application for a personal portfolio",
       },
       {
         icon: <FaCode />,
         title: "Language : ",
-        desc: "React",
+        desc: "React 18 (react, react-dom) with JSX in .jsx files, Vite 4 with @vitejs/plugin-react (vite.config.js) using ES modules, react-router-dom@^6 for SPA navigation, react-icons for vector icons, html-react-parser for safe HTML rendering, react-circular-progressbar for skill/metrics visuals, plain CSS files per page (e.g., src/pages/portfolio/portfolio.css), NPM with package.json/package-lock.json, @types/react and @types/react-dom present but codebase in JavaScript (.js/.jsx)",
       },
       {
         icon: <FiExternalLink />,
@@ -323,7 +326,7 @@ export const portfolio = [
   {
     id: 3,
     img: Work3,
-    title: "Basic Login and Authentication",
+    title: "full-stack dating application built with a modern client-server architecture",
     details: [
       {
         icon: <FiFileText />,
@@ -333,12 +336,12 @@ export const portfolio = [
       {
         icon: <FiUser />,
         title: "Personal Project : ",
-        desc: "Basic Login and Authentication",
+        desc: "full-stack dating application built with a modern client-server architecture",
       },
       {
         icon: <FaCode />,
         title: "Languages : ",
-        desc: "Angular, .Net, and Entity Framework, and SQL",
+        desc: "ASP.NET Core 8.0 with C#, SQLite with Entity Framework Core 8.0.7, JWT Bearer tokens, Microsoft.AspNetCore.Authentication.JwtBearer (JWT authentication), Microsoft.EntityFrameworkCore.Sqlite (database ORM), System.IdentityModel.Tokens.Jwt (JWT handling), Swashbuckle.AspNetCore (Swagger API docs), Angular 17.3.0 with TypeScript 5.4.2, Bootstrap 5.3.3 (CSS framework), Bootstrap Icons 1.13.1 (icons), Font Awesome 4.7.0 (additional icons), ngx-bootstrap 12.0.0 (Angular Bootstrap components), ngx-toastr 19.0.0 (toast notifications)",
       },
       {
         icon: <FiExternalLink />,
@@ -348,7 +351,7 @@ export const portfolio = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     img: Work4,
     title: "Software consulting website",
     details: [
@@ -360,17 +363,44 @@ export const portfolio = [
       {
         icon: <FiUser />,
         title: "Description : ",
-        desc: "Software consulting website",
+        desc: "Software development consulting company website that showcases their digital solutions and services",
       },
       {
         icon: <FaCode />,
         title: "Languages : ",
-        desc: "HTML, CSS, Javascript, Boostrap",
+        desc: "HTML5 (semantic markup structure), CSS3 (custom styling with styles.css and styles-services.css), JavaScript (Vanilla) for navigation functionality and scroll-based active link highlighting, Bootstrap 5.3.0 (responsive framework and UI components), Font Awesome 6.5.0 (icon library for service icons and social media)",
       },
       {
         icon: <FiExternalLink />,
         title: "website link : ",
         desc: "www.codeorbit.co.za",
+      },
+    ],
+  },
+    {
+    id: 5,
+    img: Work5,
+    title: "Property Listing Website",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Personal Project : ",
+        desc: "Website Application",
+      },
+      {
+        icon: <FiUser />,
+        title: "Description : ",
+        desc: "full-stack property management application designed for real estate operations. It features role-based dashboards, multiple image uploads, and comprehensive property management capabilities. The system supports three user roles: Agents, Tenants, and Admins, each with specific permissions and interfaces.",
+      },
+      {
+        icon: <FaCode />,
+        title: "Languages : ",
+        desc: "Angular 18+, standalone components, TypeScript, Tailwind CSS, DaisyUI, zoneless architecture with Angular Signals, JWT-based authentication, role-based route guards, responsive mobile-first design, drag-and-drop image uploads, ASP.NET Core (.NET 9.0), C#, SQL Server, Entity Framework Core, JWT tokens with role-based authorization, Cloudinary integration, Clean Architecture, controllers for API endpoints, services for business logic, DTOs for data transfer, AutoMapper",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "website link : ",
+        desc: "www.nkazimuloproperties.co.za",
       },
     ],
   },
