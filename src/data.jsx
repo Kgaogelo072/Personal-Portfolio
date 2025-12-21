@@ -162,7 +162,7 @@ export const resume = [
     icon: <FaBriefcase />,
     year: "Sep 2021 - Sep 2023",
     title: "Editor of Science and Technology <span> Cactus Communications </span>",
-    desc: "Editing of Scientific manuscripts from world class authors for grammar and logic. Subject matter areas: Electrical engineering and electronics, manufacturing, robotics, mechanical engineering, civil engineering, and machine learning",
+    desc: "Editing of Scientific manuscripts from world class authors and academic journals for grammar and logic. Subject matter areas: Electrical engineering and electronics, manufacturing, robotics, mechanical engineering, civil engineering, and machine learning",
   },
 
   {
