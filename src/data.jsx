@@ -145,16 +145,16 @@ export const resume = [
     category: "experience",
     icon: <FaBriefcase />,
     year: "May 2024 - June 2025",
-    title: "Web Development Internship <span> Tradeshield </span>",
+    title: "Junior Software Developer <span> Tradeshield </span>",
     desc: "Contributing to the development of an AI-powered trade credit risk platform, helping businesses automate risk evaluations and reduce bad debt.Collaborating in cross-functional Agile teams with data scientists, engineers, and credit experts to deliver intelligent features and UI components.Supporting improvements in trade credit processes that led to measurable outcomes such as 75% faster credit approvals and 120% sales growth in the manufacturing sector. Gaining experience in full-stack development with a focus on Angular, .NET Core, and REST APIs within a fast-paced fintech startup. Part of a team funded by Vumela and Edge Growth, which secured $822K in seed funding to scale its AI platform.",
   },
     {
     id: 2,
     category: "experience",
     icon: <FaBriefcase />,
-    year: "October 2024 - Present",
-    title: "Founder <span>Code Orbit (www.codeorbit.co.za)</span>",
-    desc: "Software consulting company. Building of custom software according to client specifications",
+    year: " July 2025 - Present",
+    title: "Founder - Softwarer Development Consulting<span>Code Orbit </span>",
+    desc: "I provide software consulting and technical support services to small businesses and independent clients, delivering reliable and scalable solutions tailored to their needs. My role involves investigating and resolving production issues through SQL queries, log analysis, debugging tools, and API trace inspection to ensure system stability and performance. I also design and develop scalable applications using Angular, .NET, SQL Server, and Azure services, while conducting requirements-gathering sessions to translate business needs into clear, actionable technical tasks that drive effective implementation and measurable outcomes.",
   },
   {
     id: 3,
@@ -162,7 +162,7 @@ export const resume = [
     icon: <FaBriefcase />,
     year: "Sep 2021 - Sep 2023",
     title: "Editor of Science and Technology <span> Cactus Communications </span>",
-    desc: "Editing of Scientific manuscripts for grammar and logic (Subject Areas: Electrical engineering and electronics, manufacturing, robotics, mechanical engineering, civil engineering, and structural",
+    desc: "Editing of Scientific manuscripts from world class authors for grammar and logic. Subject matter areas: Electrical engineering and electronics, manufacturing, robotics, mechanical engineering, civil engineering, and machine learning",
   },
 
   {
@@ -171,15 +171,15 @@ export const resume = [
     icon: <FaBriefcase />,
     year: "Feb 2021 - Nov 2021",
     title: "Academic Tutor: Engineering drawing <span> Wits University </span>",
-    desc: "Marked tutorials, provided feedback, and conducted online consultations for first year students (Autodesk and solid edge)",
+    desc: "Served as an Academic Tutor for Engineering Drawing at Wits University, supporting first-year students through marked tutorials, detailed academic feedback, and structured online consultations. Assisted students in developing a strong foundation in technical drawing concepts and industry-standard tools, including Autodesk and Solid Edge, while improving their problem-solving skills, accuracy, and overall academic performance.",
   },
 
   {
     id: 5,
     category: "education",
     icon: <FaGraduationCap />,
-    year: "2023",
-    title: "BSc Mechanical Engineering (Incomplete – Final Year Level) <span> University of the Witwatersrand </span>",
+    year: "2026",
+    title: "BSc Mechanical Engineering <span> University of the Witwatersrand </span>",
     desc: "Application of mechanicanics, thermodynamics, engineering mathematics, fluid mechanicals, and mechatronics principles to solve complex, open-ended problems. Completed nearly all course requirements; only 3 modules outstanding due to financial challenges.",
   },
 

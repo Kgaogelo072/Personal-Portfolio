@@ -1,5 +1,5 @@
 import React from "react";
-import Profile from "../../assets/home.jpg"
+import Profile from "../../assets/home.png"
 import {Link} from "react-router-dom";
 import { FaArrowRight} from "react-icons/fa";
 import "./home.css"
@@ -14,9 +14,10 @@ const Home = () => {
                     <span>I am Kgaogelo Tshabalala.</span> Full-stack developer
                 </h1>
                 <p className="home__description">
-                Driven and versatile Junior Software Developer with a background in Mechanical Engineering and a proven ability to deliver full-stack solutions. 
-                Currently contributing to an AI-powered trade credit risk platform at Trade Shield. Skilled in Angular, React, Javascript, .NET, SQL, and responsive web development. 
-                Passionate about solving real-world problems using scalable technologies. Strong communicator who thrives in Agile, cross-functional environments.
+                Data-focused Software Developer with strong experience in machine learning, data engineering
+                concepts, and full-stack software development. Skilled in C#/.NET, Angular, SQL Server, and
+                Python for ML. Experienced in debugging, production support, root-cause analysis, and building data-
+                centric applications. Currently advancing data engineering skills through the ALX Africa Data Engineering Programme.
                 </p>
                 <Link to ="./about" className = "button">
                     More ABout Me{' '}
