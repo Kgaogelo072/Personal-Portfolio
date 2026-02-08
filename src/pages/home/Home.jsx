@@ -14,10 +14,10 @@ const Home = () => {
                     <span>I am Kgaogelo Tshabalala.</span> Full-stack developer
                 </h1>
                 <p className="home__description">
-                Data-focused Software Developer with strong experience in machine learning, data engineering
+                4th year BSc Engineering (Mechanical) data-focused Software Developer with strong experience in machine learning, data engineering
                 concepts, and full-stack software development. Skilled in C#/.NET, Angular, SQL Server, and
                 Python for ML. Experienced in debugging, production support, root-cause analysis, and building data-
-                centric applications. Currently advancing data engineering skills through the ALX Africa Data Engineering Programme.
+                centric applications. Currently advancing data engineering skills through the ALX Africa Data Engineering Programme and completing my final year at the UNiversity of the Witwatersrand.
                 </p>
                 <Link to ="./about" className = "button">
                     More ABout Me{' '}
