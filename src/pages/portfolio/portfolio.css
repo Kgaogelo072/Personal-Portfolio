@@ -1,10 +1,10 @@
 /* Portfolio page — matched to the approved visual reference */
 .portfolio-page {
-  --portfolio-accent: #ff5a0a;
-  --portfolio-ink: #111318;
-  --portfolio-text: #5e6879;
-  --portfolio-muted: #f3f5f8;
-  --portfolio-border: #e7e9ee;
+  --portfolio-accent: var(--first-color);
+  --portfolio-ink: var(--title-color);
+  --portfolio-text: var(--text-color);
+  --portfolio-muted: var(--container-color);
+  --portfolio-border: var(--border-color);
   min-height: 100vh;
   padding: 18px 88px 72px;
   background: var(--body-color);
@@ -55,7 +55,7 @@
 .portfolio-page__intro {
   max-width: 840px;
   margin: 15px auto 24px;
-  color: #5d6777;
+  color: var(--text-color);
   font-size: 17px;
   font-weight: 400;
   line-height: 1.55;
@@ -71,10 +71,10 @@
 .portfolio-page__filter {
   min-height: 38px;
   padding: 0 20px;
-  border: 1px solid #dfe3e9;
+  border: 1px solid var(--border-color);
   border-radius: 999px;
-  background: #fff;
-  color: #4b5565;
+  background: var(--body-color);
+  color: var(--text-color);
   font-family: var(--body-font);
   font-size: 13px;
   font-weight: 600;
@@ -83,7 +83,7 @@
 }
 
 .portfolio-page__filter:hover {
-  border-color: #c9ced7;
+  border-color: var(--first-color);
 }
 
 .portfolio-page__filter.is-active {
@@ -104,7 +104,7 @@
   overflow: hidden;
   border: 1px solid var(--portfolio-border);
   border-radius: 17px;
-  background: #fff;
+  background: var(--body-color);
   box-shadow: 0 7px 22px rgba(17, 24, 39, 0.06);
   transition: transform 0.22s ease, box-shadow 0.22s ease;
 }
@@ -126,7 +126,7 @@
   height: 218px;
   overflow: hidden;
   border-radius: 12px;
-  background: #f2f3f5;
+  background: var(--container-color);
 }
 
 .portfolio__img {
@@ -156,7 +156,7 @@
   margin-bottom: 9px;
   padding: 5px 10px;
   border-radius: 999px;
-  background: #fff0e8;
+  background: color-mix(in srgb, var(--first-color) 12%, transparent);
   color: var(--portfolio-accent);
   font-size: 12px;
   font-weight: 700;
@@ -169,8 +169,8 @@
 }
 
 .portfolio__category--other {
-  background: #f0f2f5;
-  color: #5d6777;
+  background: var(--container-color);
+  color: var(--text-color);
 }
 
 .portfolio__category--e-commerce {
@@ -180,7 +180,7 @@
 
 .portfolio__title {
   margin: 0 0 5px;
-  color: #17191d;
+  color: var(--title-color);
   font-family: var(--second-font);
   font-size: 19px;
   font-weight: 700;
@@ -190,7 +190,7 @@
 
 .portfolio__description {
   margin: 0 0 14px;
-  color: #687282;
+  color: var(--text-color);
   font-size: 13px;
   font-weight: 400;
   line-height: 1.5;
@@ -208,7 +208,7 @@
   padding: 6px 10px;
   border-radius: 7px;
   background: var(--portfolio-muted);
-  color: #687282;
+  color: var(--text-color);
   font-size: 11px;
   font-weight: 600;
   line-height: 1;
@@ -244,7 +244,7 @@
 }
 
 .portfolio__btn--primary:hover {
-  background: #ee4f00;
+  background: color-mix(in srgb, var(--first-color) 86%, #000);
   transform: translateY(-1px);
 }
 
@@ -252,7 +252,7 @@
   display: inline-flex;
   align-items: center;
   gap: 7px;
-  color: #263244;
+  color: var(--title-color);
   font-size: 12px;
   font-weight: 700;
   text-decoration: none;
@@ -279,7 +279,7 @@
   max-height: 90vh;
   overflow-y: auto;
   border-radius: 18px;
-  background: #fff;
+  background: var(--body-color);
   box-shadow: 0 28px 80px rgba(0, 0, 0, 0.25);
 }
 
@@ -293,7 +293,7 @@
   height: 40px;
   place-items: center;
   border-radius: 50%;
-  background: #f2f4f7;
+  background: var(--container-color);
   cursor: pointer;
 }
 
@@ -308,7 +308,7 @@
 
 .modal__title {
   margin: 2px 48px 18px 0;
-  color: #17191d;
+  color: var(--title-color);
   font-size: 29px;
   line-height: 1.2;
 }
@@ -328,7 +328,7 @@
 
 .modal__summary {
   margin: 0 0 20px;
-  color: #5f6979;
+  color: var(--text-color);
   font-size: 15px;
   font-weight: 400;
   line-height: 1.65;
@@ -345,19 +345,19 @@
   padding: 14px;
   border: 1px solid var(--portfolio-border);
   border-radius: 11px;
-  background: #fafbfc;
+  background: var(--container-color);
 }
 
 .modal__detail-title {
   display: block;
   margin-bottom: 5px;
-  color: #17191d;
+  color: var(--title-color);
   font-size: 12px;
   font-weight: 800;
 }
 
 .modal__detail-content {
-  color: #687282;
+  color: var(--text-color);
   font-size: 13px;
   font-weight: 400;
   line-height: 1.5;
@@ -372,15 +372,6 @@
 
 .modal__project-link {
   width: fit-content;
-}
-
-/* Keep the page visually consistent with the light reference even when site theme changes. */
-.dark-theme .portfolio-page {
-  background: #fff;
-}
-
-.dark-theme .portfolio-page__eyebrow {
-  color: #384253;
 }
 
 @media screen and (max-width: 1200px) {
@@ -434,4 +425,40 @@
   .modal__details {
     grid-template-columns: 1fr;
   }
+}
+
+
+/* Theme integration */
+.light-theme .portfolio-page {
+  color-scheme: light;
+}
+
+.dark-theme .portfolio-page {
+  color-scheme: dark;
+}
+
+.dark-theme .portfolio__card,
+.dark-theme .portfolio-page__filter,
+.dark-theme .portfolio__modal-content {
+  background: var(--container-color);
+}
+
+.dark-theme .portfolio__image-container,
+.dark-theme .modal__detail-item,
+.dark-theme .modal__close,
+.dark-theme .portfolio__tech-value {
+  background: var(--body-color);
+}
+
+.dark-theme .portfolio__card {
+  box-shadow: 0 7px 22px rgba(0, 0, 0, 0.22);
+}
+
+.dark-theme .portfolio__card:hover {
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+}
+
+.dark-theme .portfolio-page__filter.is-active,
+.dark-theme .portfolio__btn--primary {
+  color: #fff;
 }
