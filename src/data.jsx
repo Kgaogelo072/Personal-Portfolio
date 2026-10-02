@@ -273,134 +273,127 @@ export const skills = [
 export const portfolio = [
   {
     id: 1,
-    img: Work1,
-    title: "Machine Learning",
+    img: Work5,
+    title: "Nkazimulo Properties",
+    category: "Web Applications",
+    description:
+      "Property listing platform with search, property management and enquiries for a South African real estate business.",
+    technologies: ["Angular 18", "ASP.NET Core", "SQL Server", "Azure"],
+    link: "https://www.nkazimuloproperties.co.za",
+    linkLabel: "Live Site",
     details: [
       {
-        icon: <FiFileText />,
-        title: "Semantic Segmentation",
+        title: "Focus",
+        desc: "Property discovery, role-based management and customer enquiries.",
       },
       {
-        icon: <FiUser />,
-        title: "Final year research project",
-        desc: "semantic segmentation research project focused on analyzing the performance of deep learning algorithms under different illumination conditions, particularly for autonomous vehicle applications. The project investigates how changes in lighting affect the accuracy and robustness of semantic segmentation models",
-      },
-      {
-        icon: <FaCode />,
-        title: "Language : ",
-        desc: "Python (primary programming language), Jupyter Notebook (Research.ipynb), TensorFlow/Keras or PyTorch (deep learning framework), OpenCV and PIL/Pillow (image processing), NumPy and Pandas (data manipulation), Matplotlib and Seaborn (visualization), Scikit-learn (evaluation metrics)",
-      },
-      {
-        icon: <FiExternalLink />,
-        title: "GitHub Repository : ",
-        desc: "https://github.com/Kgaogelo072/Deep-Learning-Python-Research.git",
+        title: "Role",
+        desc: "Full-stack development and product implementation.",
       },
     ],
   },
   {
     id: 2,
-    img: Work2,
-    title: "Personal Portfolio",
+    img: Work3,
+    title: "Full-Stack Dating App",
+    category: "Web Applications",
+    description:
+      "Client-server dating application with authentication, user profiles and a responsive Angular interface.",
+    technologies: ["Angular", "ASP.NET Core", "SQLite", "JWT"],
+    link: "https://github.com/Kgaogelo072/DattingApp",
+    linkLabel: "Code",
     details: [
       {
-        icon: <FiFileText />,
-        title: "Personal Portfolio",
+        title: "Focus",
+        desc: "Authentication, profiles and full-stack application architecture.",
       },
       {
-        icon: <FiUser />,
-        title: "Personal Project",
-        desc: "React single-page application for a personal portfolio",
-      },
-      {
-        icon: <FaCode />,
-        title: "Language : ",
-        desc: "React 18 (react, react-dom) with JSX in .jsx files, Vite 4 with @vitejs/plugin-react (vite.config.js) using ES modules, react-router-dom@^6 for SPA navigation, react-icons for vector icons, html-react-parser for safe HTML rendering, react-circular-progressbar for skill/metrics visuals, plain CSS files per page (e.g., src/pages/portfolio/portfolio.css), NPM with package.json/package-lock.json, @types/react and @types/react-dom present but codebase in JavaScript (.js/.jsx)",
-      },
-      {
-        icon: <FiExternalLink />,
-        title: "GitHub Repository : ",
-        desc: "https://github.com/Kgaogelo072/Personal-Portfolio.git",
+        title: "Role",
+        desc: "Frontend and backend development.",
       },
     ],
   },
   {
     id: 3,
-    img: Work3,
-    title: "full-stack dating application built with a modern client-server architecture",
+    img: Work1,
+    title: "Semantic Segmentation Research",
+    category: "Data & AI",
+    description:
+      "Research into how changing illumination conditions affect semantic segmentation for autonomous vehicle applications.",
+    technologies: ["Python", "Deep Learning", "OpenCV", "Jupyter"],
+    link: "https://github.com/Kgaogelo072/Deep-Learning-Python-Research",
+    linkLabel: "Code",
     details: [
       {
-        icon: <FiFileText />,
-        title: "Personal Project : ",
-        desc: "Website Application",
+        title: "Focus",
+        desc: "Model robustness under different lighting conditions.",
       },
       {
-        icon: <FiUser />,
-        title: "Personal Project : ",
-        desc: "full-stack dating application built with a modern client-server architecture",
-      },
-      {
-        icon: <FaCode />,
-        title: "Languages : ",
-        desc: "ASP.NET Core 8.0 with C#, SQLite with Entity Framework Core 8.0.7, JWT Bearer tokens, Microsoft.AspNetCore.Authentication.JwtBearer (JWT authentication), Microsoft.EntityFrameworkCore.Sqlite (database ORM), System.IdentityModel.Tokens.Jwt (JWT handling), Swashbuckle.AspNetCore (Swagger API docs), Angular 17.3.0 with TypeScript 5.4.2, Bootstrap 5.3.3 (CSS framework), Bootstrap Icons 1.13.1 (icons), Font Awesome 4.7.0 (additional icons), ngx-bootstrap 12.0.0 (Angular Bootstrap components), ngx-toastr 19.0.0 (toast notifications)",
-      },
-      {
-        icon: <FiExternalLink />,
-        title: "GitHub Repository : ",
-        desc: "https://github.com/Kgaogelo072/DattingApp.git",
+        title: "Application",
+        desc: "Computer vision for autonomous vehicle perception.",
       },
     ],
   },
   {
     id: 4,
     img: Work4,
-    title: "Software consulting website",
+    title: "CodeOrbit",
+    category: "Other",
+    description:
+      "Business website for a software consulting company showcasing digital services, solutions and client contact paths.",
+    technologies: ["HTML", "CSS", "JavaScript", "Bootstrap"],
+    link: "https://www.codeorbit.co.za",
+    linkLabel: "Live Site",
     details: [
       {
-        icon: <FiFileText />,
-        title: "Personal Project : ",
-        desc: "Website Application",
+        title: "Focus",
+        desc: "Service positioning, responsive design and lead generation.",
       },
       {
-        icon: <FiUser />,
-        title: "Description : ",
-        desc: "Software development consulting company website that showcases their digital solutions and services",
-      },
-      {
-        icon: <FaCode />,
-        title: "Languages : ",
-        desc: "HTML5 (semantic markup structure), CSS3 (custom styling with styles.css and styles-services.css), JavaScript (Vanilla) for navigation functionality and scroll-based active link highlighting, Bootstrap 5.3.0 (responsive framework and UI components), Font Awesome 6.5.0 (icon library for service icons and social media)",
-      },
-      {
-        icon: <FiExternalLink />,
-        title: "website link : ",
-        desc: "www.codeorbit.co.za",
+        title: "Role",
+        desc: "Design, development and deployment.",
       },
     ],
   },
-    {
+  {
     id: 5,
-    img: Work5,
-    title: "Property Listing Website",
+    img: Work2,
+    title: "Personal Portfolio",
+    category: "Other",
+    description:
+      "Personal portfolio built to present software, data and engineering work in a clear, responsive experience.",
+    technologies: ["React", "Vite", "React Router", "CSS"],
+    link: "https://github.com/Kgaogelo072/Personal-Portfolio",
+    linkLabel: "Code",
     details: [
       {
-        icon: <FiFileText />,
-        title: "Personal Project : ",
-        desc: "Website Application",
+        title: "Focus",
+        desc: "Personal branding, project presentation and responsive UI.",
       },
       {
-        icon: <FiUser />,
-        title: "Description : ",
-        desc: "full-stack property management application designed for real estate operations. It features role-based dashboards, multiple image uploads, and comprehensive property management capabilities. The system supports three user roles: Agents, Tenants, and Admins, each with specific permissions and interfaces.",
+        title: "Role",
+        desc: "Design and frontend development.",
+      },
+    ],
+  },
+  {
+    id: 6,
+    img: Work4,
+    title: "Eminence Books",
+    category: "E-commerce",
+    description:
+      "Online bookstore experience designed around a clean product catalogue, intuitive browsing and streamlined purchasing.",
+    technologies: ["WordPress", "WooCommerce", "Elementor", "Payments"],
+    link: "https://github.com/Kgaogelo072/Eminence",
+    linkLabel: "Code",
+    details: [
+      {
+        title: "Focus",
+        desc: "Book discovery, catalogue presentation and e-commerce flow.",
       },
       {
-        icon: <FaCode />,
-        title: "Languages : ",
-        desc: "Angular 18+, standalone components, TypeScript, Tailwind CSS, DaisyUI, zoneless architecture with Angular Signals, JWT-based authentication, role-based route guards, responsive mobile-first design, drag-and-drop image uploads, ASP.NET Core (.NET 9.0), C#, SQL Server, Entity Framework Core, JWT tokens with role-based authorization, Cloudinary integration, Clean Architecture, controllers for API endpoints, services for business logic, DTOs for data transfer, AutoMapper",
-      },
-      {
-        icon: <FiExternalLink />,
-        title: "website link : ",
-        desc: "www.nkazimuloproperties.co.za",
+        title: "Role",
+        desc: "Store setup, interface design and implementation.",
       },
     ],
   },
