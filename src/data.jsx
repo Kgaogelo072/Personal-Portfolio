@@ -10,10 +10,11 @@ import {
 import { FiFileText, FiUser, FiExternalLink } from "react-icons/fi";
 
 import Work1 from "./assets/project-1.jpg";
-import Work2 from "./assets/project-2.jpg";
-import Work3 from "./assets/project-3.jpg";
 import Work4 from "./assets/project-4.jpg";
-import Work5 from "./assets/project-5.jpg";
+import NkazimuloImg from "./assets/nkazimulo-holdings.jpg";
+import CodeOrbitImg from "./assets/codeorbit.jpg";
+import AirVoucherImg from "./assets/airvoucher.jpg";
+import WillPhinImg from "./assets/willphin.jpg";
 
 
 import Theme1 from "./assets/purple.png";
@@ -273,18 +274,18 @@ export const skills = [
 export const portfolio = [
   {
     id: 1,
-    img: Work5,
-    title: "Nkazimulo Properties",
+    img: NkazimuloImg,
+    title: "Nkazimulo Holdings",
     category: "Web Applications",
     description:
-      "Property listing platform with search, property management and enquiries for a South African real estate business.",
-    technologies: ["Angular 18", "ASP.NET Core", "SQL Server", "Azure"],
+      "Student accommodation platform for Braamfontein with apartments, studios and shared rooms, per-room and per-bed pricing, map search and an owner dashboard.",
+    technologies: ["Angular 20", "ASP.NET Core 8", "PostgreSQL", "Tailwind CSS"],
     link: "https://www.nkazimuloproperties.co.za",
     linkLabel: "Live Site",
     details: [
       {
         title: "Focus",
-        desc: "Property discovery, role-based management and customer enquiries.",
+        desc: "Listing search and filters, owner listing management and admin approval.",
       },
       {
         title: "Role",
@@ -294,22 +295,22 @@ export const portfolio = [
   },
   {
     id: 2,
-    img: Work3,
-    title: "Full-Stack Dating App",
+    img: AirVoucherImg,
+    title: "AirVoucher",
     category: "Web Applications",
     description:
-      "Client-server dating application with authentication, user profiles and a responsive Angular interface.",
-    technologies: ["Angular", "ASP.NET Core", "SQLite", "JWT"],
-    link: "https://github.com/Kgaogelo072/DattingApp",
-    linkLabel: "Code",
+      "Prepaid airtime, data and voucher platform for South African retailers, with point-of-sale terminals, retailer sign-up and an admin portal for inventory, commissions and funds.",
+    technologies: ["Next.js 15", "TypeScript", "AWS Lambda", "Aurora PostgreSQL"],
+    link: "https://retailer.arv-shop.com/signup?from=terminal",
+    linkLabel: "Live Site",
     details: [
       {
         title: "Focus",
-        desc: "Authentication, profiles and full-stack application architecture.",
+        desc: "Supplier integrations, terminal sales, retailer onboarding and admin tooling.",
       },
       {
         title: "Role",
-        desc: "Frontend and backend development.",
+        desc: "Full-stack development across the terminal, admin portal and serverless API.",
       },
     ],
   },
@@ -336,12 +337,12 @@ export const portfolio = [
   },
   {
     id: 4,
-    img: Work4,
+    img: CodeOrbitImg,
     title: "CodeOrbit",
     category: "Other",
     description:
-      "Business website for a software consulting company showcasing digital services, solutions and client contact paths.",
-    technologies: ["HTML", "CSS", "JavaScript", "Bootstrap"],
+      "Animated marketing site for a software consultancy, presenting services and pricing with a contact form that sends enquiries by email.",
+    technologies: ["Next.js 16", "React 19", "TypeScript", "Tailwind CSS"],
     link: "https://www.codeorbit.co.za",
     linkLabel: "Live Site",
     details: [
@@ -357,22 +358,22 @@ export const portfolio = [
   },
   {
     id: 5,
-    img: Work2,
-    title: "Personal Portfolio",
+    img: WillPhinImg,
+    title: "WillPhin",
     category: "Other",
     description:
-      "Personal portfolio built to present software, data and engineering work in a clear, responsive experience.",
-    technologies: ["React", "Vite", "React Router", "CSS"],
-    link: "https://github.com/Kgaogelo072/Personal-Portfolio",
-    linkLabel: "Code",
+      "Website for a bookkeeping, accounting, payroll and VAT firm, with client-editable services, testimonials and an invite-only client review flow.",
+    technologies: ["WordPress", "PHP", "ACF", "JavaScript"],
+    link: "https://willphin.co.za",
+    linkLabel: "Live Site",
     details: [
       {
         title: "Focus",
-        desc: "Personal branding, project presentation and responsive UI.",
+        desc: "Custom theme, content the client can manage in wp-admin, and lead generation.",
       },
       {
         title: "Role",
-        desc: "Design and frontend development.",
+        desc: "Theme design, development and ongoing maintenance.",
       },
     ],
   },
