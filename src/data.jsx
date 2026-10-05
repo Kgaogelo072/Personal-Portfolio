@@ -11,10 +11,10 @@ import { FiFileText, FiUser, FiExternalLink } from "react-icons/fi";
 
 import Work1 from "./assets/project-1.jpg";
 import Work2 from "./assets/project-2.jpg";
-import Work3 from "./assets/project-3.jpg";
 import Work4 from "./assets/project-4.jpg";
 import NkazimuloImg from "./assets/nkazimulo-holdings.jpg";
 import CodeOrbitImg from "./assets/codeorbit.jpg";
+import AirVoucherImg from "./assets/airvoucher.jpg";
 
 
 import Theme1 from "./assets/purple.png";
@@ -295,22 +295,22 @@ export const portfolio = [
   },
   {
     id: 2,
-    img: Work3,
-    title: "Full-Stack Dating App",
+    img: AirVoucherImg,
+    title: "AirVoucher",
     category: "Web Applications",
     description:
-      "Client-server dating application with authentication, user profiles and a responsive Angular interface.",
-    technologies: ["Angular", "ASP.NET Core", "SQLite", "JWT"],
-    link: "https://github.com/Kgaogelo072/DattingApp",
-    linkLabel: "Code",
+      "Prepaid airtime, data and voucher platform for South African retailers, with point-of-sale terminals, retailer sign-up and an admin portal for inventory, commissions and funds.",
+    technologies: ["Next.js 15", "TypeScript", "AWS Lambda", "Aurora PostgreSQL"],
+    link: "https://retailer.arv-shop.com/signup?from=terminal",
+    linkLabel: "Live Site",
     details: [
       {
         title: "Focus",
-        desc: "Authentication, profiles and full-stack application architecture.",
+        desc: "Supplier integrations, terminal sales, retailer onboarding and admin tooling.",
       },
       {
         title: "Role",
-        desc: "Frontend and backend development.",
+        desc: "Full-stack development across the terminal, admin portal and serverless API.",
       },
     ],
   },
