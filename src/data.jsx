@@ -10,11 +10,11 @@ import {
 import { FiFileText, FiUser, FiExternalLink } from "react-icons/fi";
 
 import Work1 from "./assets/project-1.jpg";
-import Work2 from "./assets/project-2.jpg";
 import Work4 from "./assets/project-4.jpg";
 import NkazimuloImg from "./assets/nkazimulo-holdings.jpg";
 import CodeOrbitImg from "./assets/codeorbit.jpg";
 import AirVoucherImg from "./assets/airvoucher.jpg";
+import WillPhinImg from "./assets/willphin.jpg";
 
 
 import Theme1 from "./assets/purple.png";
@@ -358,22 +358,22 @@ export const portfolio = [
   },
   {
     id: 5,
-    img: Work2,
-    title: "Personal Portfolio",
+    img: WillPhinImg,
+    title: "WillPhin",
     category: "Other",
     description:
-      "Personal portfolio built to present software, data and engineering work in a clear, responsive experience.",
-    technologies: ["React", "Vite", "React Router", "CSS"],
-    link: "https://github.com/Kgaogelo072/Personal-Portfolio",
-    linkLabel: "Code",
+      "Website for a bookkeeping, accounting, payroll and VAT firm, with client-editable services, testimonials and an invite-only client review flow.",
+    technologies: ["WordPress", "PHP", "ACF", "JavaScript"],
+    link: "https://willphin.co.za",
+    linkLabel: "Live Site",
     details: [
       {
         title: "Focus",
-        desc: "Personal branding, project presentation and responsive UI.",
+        desc: "Custom theme, content the client can manage in wp-admin, and lead generation.",
       },
       {
         title: "Role",
-        desc: "Design and frontend development.",
+        desc: "Theme design, development and ongoing maintenance.",
       },
     ],
   },
