@@ -13,7 +13,8 @@ import Work1 from "./assets/project-1.jpg";
 import Work2 from "./assets/project-2.jpg";
 import Work3 from "./assets/project-3.jpg";
 import Work4 from "./assets/project-4.jpg";
-import Work5 from "./assets/project-5.jpg";
+import NkazimuloImg from "./assets/nkazimulo-holdings.jpg";
+import CodeOrbitImg from "./assets/codeorbit.jpg";
 
 
 import Theme1 from "./assets/purple.png";
@@ -273,18 +274,18 @@ export const skills = [
 export const portfolio = [
   {
     id: 1,
-    img: Work5,
-    title: "Nkazimulo Properties",
+    img: NkazimuloImg,
+    title: "Nkazimulo Holdings",
     category: "Web Applications",
     description:
-      "Property listing platform with search, property management and enquiries for a South African real estate business.",
-    technologies: ["Angular 18", "ASP.NET Core", "SQL Server", "Azure"],
+      "Student accommodation platform for Braamfontein with apartments, studios and shared rooms, per-room and per-bed pricing, map search and an owner dashboard.",
+    technologies: ["Angular 20", "ASP.NET Core 8", "PostgreSQL", "Tailwind CSS"],
     link: "https://www.nkazimuloproperties.co.za",
     linkLabel: "Live Site",
     details: [
       {
         title: "Focus",
-        desc: "Property discovery, role-based management and customer enquiries.",
+        desc: "Listing search and filters, owner listing management and admin approval.",
       },
       {
         title: "Role",
@@ -336,12 +337,12 @@ export const portfolio = [
   },
   {
     id: 4,
-    img: Work4,
+    img: CodeOrbitImg,
     title: "CodeOrbit",
     category: "Other",
     description:
-      "Business website for a software consulting company showcasing digital services, solutions and client contact paths.",
-    technologies: ["HTML", "CSS", "JavaScript", "Bootstrap"],
+      "Animated marketing site for a software consultancy, presenting services and pricing with a contact form that sends enquiries by email.",
+    technologies: ["Next.js 16", "React 19", "TypeScript", "Tailwind CSS"],
     link: "https://www.codeorbit.co.za",
     linkLabel: "Live Site",
     details: [
