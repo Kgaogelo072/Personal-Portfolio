@@ -1,25 +1,21 @@
 import React from "react";
 import { skills } from "../data";
-import { CircularProgressbar } from "react-circular-progressbar";
-import "react-circular-progressbar/dist/styles.css";
 
 const Skills = () => {
   return (
     <>
-      {skills.map(({ title, percentage }, index) => {
-        return (
-          <div className="progress__box" key={index}>
-            <div className="progress__circle">
-              <CircularProgressbar
-                strokeWidth={7.5}
-                text={`${percentage}%`}
-                value={percentage}
-              />
-            </div>
-            <h3 className="skills__title">{title}</h3>
-          </div>
-        );
-      })}
+      {skills.map(({ id, title, items }) => (
+        <div className="skills__group" key={id}>
+          <h3 className="skills__title">{title}</h3>
+          <ul className="skills__list">
+            {items.map((item) => (
+              <li className="skills__tag" key={item}>
+                {item}
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
     </>
   );
 };

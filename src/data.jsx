@@ -59,85 +59,21 @@ export const links = [
 ];
 
 export const personalInfo = [
-  {
-    id: 1,
-    title: "First Name : ",
-    description: "Kgaogelo",
-  },
-
-  {
-    id: 2,
-    title: "Last Name : ",
-    description: "Tshabala",
-  },
-
-  {
-    id: 3,
-    title: "Age : ",
-    description: "31 Years",
-  },
-
-  {
-    id: 4,
-    title: "Nationality : ",
-    description: "South Africa",
-  },
-
-  {
-    id: 5,
-    title: "Freelance : ",
-    description: "Available",
-  },
-
-  {
-    id: 6,
-    title: "Address : ",
-    description: "Midrand, Johannesburg",
-  },
-
-  {
-    id: 7,
-    title: "Phone : ",
-    description: "072 8945 924",
-  },
-
-  {
-    id: 8,
-    title: "Email : ",
-    description: "Fortunatekgaogelo@gmail.com",
-  },
-
-  {
-    id: 10,
-    title: "Langages : ",
-    description: "English, Sepedi, isiZulu",
-  },
+  { id: 1, title: "First Name : ", description: "Kgaogelo" },
+  { id: 2, title: "Last Name : ", description: "Tshabalala" },
+  { id: 3, title: "Nationality : ", description: "South African" },
+  { id: 4, title: "Availability : ", description: "Open to new roles" },
+  { id: 5, title: "Location : ", description: "Midrand, Johannesburg" },
+  { id: 6, title: "Phone : ", description: "073 283 1206" },
+  { id: 7, title: "Email : ", description: "fortunatekgaogelo@gmail.com" },
+  { id: 8, title: "Languages : ", description: "English, Sepedi, isiZulu" },
 ];
 
 export const stats = [
-  {
-    id: 1,
-    no: "1+",
-    title: "Years of <br /> Experience",
-  },
-
-  {
-    id: 2,
-    no: "3+",
-    title: "Completed <br /> Projects",
-  },
-
-  {
-    id: 3,
-    no: "2+",
-    title: "Happy <br /> Customers",
-  },
-
-  {
-    id: 4,
-    no: "3+",
-    title: " Certifactes <br /> completed",
-  },
+  { id: 1, no: "2.5+", title: "Years of <br /> Experience" },
+  { id: 2, no: "6", title: "Featured <br /> Projects" },
+  { id: 3, no: "2+", title: "Freelance <br /> Clients" },
+  { id: 4, no: "3+", title: "Certificates <br /> Completed" },
 ];
 
 export const resume = [
@@ -145,130 +81,89 @@ export const resume = [
     id: 1,
     category: "experience",
     icon: <FaBriefcase />,
-    year: "May 2024 - June 2025",
-    title: "Junior Software Developer <span> Tradeshield </span>",
-    desc: "Contributing to the development of an AI-powered trade credit risk platform, helping businesses automate risk evaluations and reduce bad debt.Collaborating in cross-functional Agile teams with data scientists, engineers, and credit experts to deliver intelligent features and UI components.Supporting improvements in trade credit processes that led to measurable outcomes such as 75% faster credit approvals and 120% sales growth in the manufacturing sector. Gaining experience in full-stack development with a focus on Angular, .NET Core, and REST APIs within a fast-paced fintech startup. Part of a team funded by Vumela and Edge Growth, which secured $822K in seed funding to scale its AI platform.",
+    year: "Oct 2025 - Present",
+    title: "Software Development Consultant <span> Trappist Systems </span>",
+    desc: "Deliver changes on AirVoucher, a payments and remittance platform: investigate defects and data discrepancies across QA and production, and support live transaction workflows. Translate operational requirements into scoped software changes, then implement, test and verify them. Also contributed to AutoVisa, an AI-assisted application workflow, and to UI improvements for The Gal in the Middle.",
   },
-    {
+  {
     id: 2,
     category: "experience",
     icon: <FaBriefcase />,
-    year: " July 2025 - Present",
-    title: "Founder - Softwarer Development Consulting<span>Code Orbit </span>",
-    desc: "I provide software consulting and technical support services to small businesses and independent clients, delivering reliable and scalable solutions tailored to their needs. My role involves investigating and resolving production issues through SQL queries, log analysis, debugging tools, and API trace inspection to ensure system stability and performance. I also design and develop scalable applications using Angular, .NET, SQL Server, and Azure services, while conducting requirements-gathering sessions to translate business needs into clear, actionable technical tasks that drive effective implementation and measurable outcomes.",
+    year: "Jul 2025 - Present",
+    title: "Founder, Freelance Software Consulting <span> CodeOrbit </span>",
+    desc: "Provide software development and technical support to small businesses and independent clients alongside my main role: requirements gathering, building web applications and websites, and resolving production issues.",
   },
   {
     id: 3,
     category: "experience",
     icon: <FaBriefcase />,
-    year: "Sep 2021 - Sep 2023",
-    title: "Editor of Science and Technology <span> Cactus Communications </span>",
-    desc: "Editing of Scientific manuscripts from world class authors and academic journals for grammar and logic. Subject matter areas: Electrical engineering and electronics, manufacturing, robotics, mechanical engineering, civil engineering, and machine learning",
+    year: "May 2024 - Jun 2025",
+    title: "Junior Software Developer <span> TradeShield </span>",
+    desc: "Built and maintained full-stack features for an AI-powered trade credit risk platform using Angular, TypeScript, C#, ASP.NET Core, Entity Framework and SQL Server. Built and consumed REST APIs, investigated production incidents, fixed defects and improved SQL query performance in an Agile fintech team.",
   },
-
   {
     id: 4,
     category: "experience",
     icon: <FaBriefcase />,
-    year: "Feb 2021 - Nov 2021",
-    title: "Academic Tutor: Engineering drawing <span> Wits University </span>",
-    desc: "Served as an Academic Tutor for Engineering Drawing at Wits University, supporting first-year students through marked tutorials, detailed academic feedback, and structured online consultations. Assisted students in developing a strong foundation in technical drawing concepts and industry-standard tools, including Autodesk and Solid Edge, while improving their problem-solving skills, accuracy, and overall academic performance.",
+    year: "May 2026",
+    title: "Data Analytics Winter Intern <span> Scrummy </span>",
+    desc: "Cleaned, transformed and analysed rugby performance data with Python, pandas, NumPy, SQL and APIs, and presented findings with visualisations.",
   },
-
   {
     id: 5,
-    category: "education",
-    icon: <FaGraduationCap />,
-    year: "2026",
-    title: "BSc Mechanical Engineering <span> University of the Witwatersrand </span>",
-    desc: "Application of mechanicanics, thermodynamics, engineering mathematics, fluid mechanicals, and mechatronics principles to solve complex, open-ended problems. Completed nearly all course requirements; only 3 modules outstanding due to financial challenges.",
+    category: "experience",
+    icon: <FaBriefcase />,
+    year: "Oct 2023 - Feb 2024",
+    title: "Junior Mechanical Engineer <span> HiNova </span>",
+    desc: "Supported mechanical/HVAC design, diagnostics and technical documentation on client projects.",
   },
-
   {
     id: 6,
-    category: "education",
-    icon: <FaGraduationCap />,
-    year: "2023",
-    title: "Complete Web Development Bootcamp Certificate of Completion <span> Udemy </span>",
-    desc: "Online courses and projects using HTML, CSS, Bootstrap, JavaScript, React.js, Node.js, APIs, C#, entity framework, Angular, Express.js, MongoDB, and SQL",
+    category: "experience",
+    icon: <FaBriefcase />,
+    year: "Jan 2022 - Dec 2023",
+    title: "Academic Editor, Science & Technology <span> Cactus Communications </span>",
+    desc: "Edited engineering and scientific manuscripts for clarity and technical accuracy, across electrical, mechanical, civil and manufacturing engineering, robotics and machine learning.",
   },
-
   {
     id: 7,
+    category: "experience",
+    icon: <FaBriefcase />,
+    year: "Feb 2021 - Nov 2021",
+    title: "Academic Tutor: Engineering Drawing <span> Wits University </span>",
+    desc: "Tutored first-year Engineering Drawing students through marked tutorials, feedback and online consultations, including Autodesk and Solid Edge.",
+  },
+  {
+    id: 8,
+    category: "education",
+    icon: <FaGraduationCap />,
+    year: "Expected June 2027",
+    title: "BSc Engineering (Mechanical) <span> University of the Witwatersrand </span>",
+    desc: "Three modules outstanding, completed alongside full-time work. Research project: semantic segmentation for autonomous vehicles.",
+  },
+  {
+    id: 9,
     category: "education",
     icon: <FaGraduationCap />,
     year: "2023",
-    title: "Deep Learning for Image Segmentation with Python and Pytorch <span> Udemy </span>",
-    desc: "Application of Convolutional Neural Networks for Semantic Segmentation Applications using Python and Pytorch",
+    title: "The Complete Web Development Bootcamp <span> Udemy </span>",
+    desc: "HTML, CSS, JavaScript, React, Node.js, Express, APIs, MongoDB and SQL.",
+  },
+  {
+    id: 10,
+    category: "education",
+    icon: <FaGraduationCap />,
+    year: "2023",
+    title: "Deep Learning for Image Segmentation with Python and PyTorch <span> Udemy </span>",
+    desc: "Convolutional neural networks for semantic segmentation using Python and PyTorch.",
   },
 ];
 
 export const skills = [
-  {
-    id: 1,
-    title: "Html",
-    percentage: "70",
-  },
-
-  {
-    id: 2,
-    title: "Javascript",
-    percentage: "70",
-  },
-
-  {
-    id: 3,
-    title: "Css",
-    percentage: "70",
-  },
-
-  {
-    id: 4,
-    title: "Angular",
-    percentage: "70",
-  },
-
-  {
-    id: 5,
-    title: "React",
-    percentage: "70",
-  },
-
-  {
-    id: 6,
-    title: "C#",
-    percentage: "80",
-  },
-
-  {
-    id: 7,
-    title: ".Net",
-    percentage: "60",
-  },
-
-  {
-    id: 8,
-    title: "Node.js",
-    percentage: "40",
-  },
-
-  {
-    id: 9,
-    title: "Express.js",
-    percentage: "40",
-  },
-
-  {
-    id: 10,
-    title: "SQL",
-    percentage: "60",
-  },
-
-  {
-    id: 11,
-    title: "Python",
-    percentage: "60",
-  },
+  { id: 1, title: "Backend", items: ["C#", ".NET / ASP.NET Core", "Entity Framework Core", "REST APIs", "Python"] },
+  { id: 2, title: "Frontend", items: ["Angular", "TypeScript", "JavaScript", "React / Next.js", "HTML & CSS"] },
+  { id: 3, title: "Data", items: ["SQL Server", "PostgreSQL", "Azure SQL", "SQLite"] },
+  { id: 4, title: "Cloud & Tools", items: ["Azure", "Git & GitHub", "GitHub Actions", "Docker", "Postman"] },
 ];
 
 export const portfolio = [
