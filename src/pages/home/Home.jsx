@@ -14,10 +14,10 @@ const Home = () => {
                     <span>I am Kgaogelo Tshabalala.</span> Full-stack developer
                 </h1>
                 <p className="home__description">
-                4th year BSc Engineering (Mechanical) data-focused Software Developer with strong experience in machine learning, data engineering
-                concepts, and full-stack software development. Skilled in C#/.NET, Angular, SQL Server, and
-                Python for ML. Experienced in debugging, production support, root-cause analysis, and building data-
-                centric applications. Currently advancing data engineering skills through the ALX Africa Data Engineering Programme and completing my final year at the UNiversity of the Witwatersrand.
+                Full-stack developer with 2.5 years of commercial experience building and supporting
+                production web applications in fintech and payments, using C#/.NET, ASP.NET Core,
+                Angular/TypeScript, SQL Server and REST APIs. Currently a Software Development
+                Consultant at Trappist Systems on the Airvoucher payments and remittance platform.
                 </p>
                 <Link to ="./about" className = "button">
                     More ABout Me{' '}
