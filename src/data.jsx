@@ -274,22 +274,22 @@ export const portfolio = [
   },
   {
     id: 6,
-    img: "https://s.wordpress.com/mshots/v1/https%3A%2F%2Feminencetss.co.za%2F?w=1200",
-    title: "Eminence Books",
-    category: "E-commerce",
+    img: "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fanelelovesfood.co.za%2F?w=1200",
+    title: "Anele Loves Food",
+    category: "Other",
     description:
-      "WooCommerce textbook store that helps parents find required school books by school and grade, order online and choose convenient collection options.",
-    technologies: ["WordPress", "WooCommerce", "Elementor", "Payments"],
-    link: "https://eminencetss.co.za/",
+      "Elegant, responsive website for a catering and private dining business, showcasing culinary experiences, events and galleries with an online quotation enquiry flow.",
+    technologies: ["Next.js", "React", "TypeScript", "Resend"],
+    link: "https://anelelovesfood.co.za/",
     linkLabel: "Live Site",
     details: [
       {
         title: "Focus",
-        desc: "School- and grade-based textbook browsing, online ordering and collection options.",
+        desc: "Catering and private dining services, photo gallery, quote requests and WhatsApp contact.",
       },
       {
         title: "Role",
-        desc: "Store setup, interface design and implementation.",
+        desc: "Website design, development, deployment and enquiry email integration.",
       },
     ],
   },
