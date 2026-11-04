@@ -64,7 +64,7 @@ export const personalInfo = [
   { id: 3, title: "Nationality : ", description: "South African" },
   { id: 4, title: "Availability : ", description: "Open to new roles" },
   { id: 5, title: "Location : ", description: "Midrand, Johannesburg" },
-  { id: 6, title: "Phone : ", description: "073 283 1206" },
+  { id: 6, title: "Phone : ", description: "0732831206" },
   { id: 7, title: "Email : ", description: "fortunatekgaogelo@gmail.com" },
   { id: 8, title: "Languages : ", description: "English, Sepedi, isiZulu" },
 ];
