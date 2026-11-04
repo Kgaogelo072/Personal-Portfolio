@@ -274,18 +274,18 @@ export const portfolio = [
   },
   {
     id: 6,
-    img: Work4,
+    img: "https://s.wordpress.com/mshots/v1/https%3A%2F%2Feminencetss.co.za%2F?w=1200",
     title: "Eminence Books",
     category: "E-commerce",
     description:
-      "Online bookstore experience designed around a clean product catalogue, intuitive browsing and streamlined purchasing.",
+      "WooCommerce textbook store that helps parents find required school books by school and grade, order online and choose convenient collection options.",
     technologies: ["WordPress", "WooCommerce", "Elementor", "Payments"],
-    link: "https://github.com/Kgaogelo072/Eminence",
-    linkLabel: "Code",
+    link: "https://eminencetss.co.za/",
+    linkLabel: "Live Site",
     details: [
       {
         title: "Focus",
-        desc: "Book discovery, catalogue presentation and e-commerce flow.",
+        desc: "School- and grade-based textbook browsing, online ordering and collection options.",
       },
       {
         title: "Role",
