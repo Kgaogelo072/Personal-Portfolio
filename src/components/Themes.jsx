@@ -6,23 +6,24 @@ import { FaCog } from "react-icons/fa";
 import { BsSun, BsMoon } from "react-icons/bs";
 import "./themes.css";
 const getStorageColor = () => {
-  let color = 'hsl(252, 35%, 51%)';
+  let color = 'hsl(88, 65%, 43%)';
   if(localStorage.getItem('color')){
     color = localStorage.getItem('color');
   }
   return color;
 };
 const getStorageTheme = () => {
-  let theme = 'light-theme';
-  if(localStorage.getItem('theme')){
-    theme = localStorage.getItem(getStorageTheme());
+  let theme = 'dark-theme';
+  const savedTheme = localStorage.getItem('theme');
+  if (savedTheme === 'dark-theme' || savedTheme === 'light-theme') {
+    theme = savedTheme;
   }
   return theme;
 };
 const Themes = () => {
   const [showSwitcher, setShowSwitcher] = useState(false);
   const [color, setColor] = useState(getStorageColor());
-  const [theme, setTheme] = useState('light-theme');
+  const [theme, setTheme] = useState(getStorageTheme);
   const changeColor = (color) => {
     setColor(color);
   };
