@@ -6,6 +6,7 @@ import {
   FaTwitter,
   FaFacebook,
   FaYoutube,
+  FaLinkedinIn,
 } from "react-icons/fa";
 import { FiSend } from "react-icons/fi";
 import "./contact.css";
@@ -34,11 +35,21 @@ const Contact = () => {
               <FaPhoneSquareAlt className="info__icon" />
               <div>
                 <span className="info__title">Call me</span>
-                <h4 className="info__desc">072 8945 924</h4>
+                <h4 className="info__desc">0732831206</h4>
               </div>
             </div>
           </div>
           <div className="contact__socials">
+            <a
+              href="https://www.linkedin.com/in/kgaogelo-tshabalala-a48035120"
+              className="contact__social-link"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn profile"
+              title="LinkedIn"
+            >
+              <FaLinkedinIn />
+            </a>
             <a href="https://facebook.com" className="contact__social-link">
               <FaFacebook />
             </a>
