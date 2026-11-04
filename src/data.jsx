@@ -169,26 +169,25 @@ export const skills = [
 export const portfolio = [
   {
     id: 1,
-    img: NkazimuloImg,
-    title: "Nkazimulo Holdings",
-    category: "Web Applications",
+    img: "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fanelelovesfood.co.za%2F?w=1200",
+    title: "Anele Loves Food",
+    category: "Other",
     description:
-      "Student accommodation platform for Braamfontein with apartments, studios and shared rooms, per-room and per-bed pricing, map search and an owner dashboard.",
-    technologies: ["Angular 20", "ASP.NET Core 8", "PostgreSQL", "Tailwind CSS"],
-    link: "https://www.nkazimuloproperties.co.za",
+      "Elegant, responsive website for a catering and private dining business, showcasing culinary experiences, events and galleries with an online quotation enquiry flow.",
+    technologies: ["Next.js", "React", "TypeScript", "Resend"],
+    link: "https://anelelovesfood.co.za/",
     linkLabel: "Live Site",
     details: [
       {
         title: "Focus",
-        desc: "Listing search and filters, owner listing management and admin approval.",
+        desc: "Catering and private dining services, photo gallery, quote requests and WhatsApp contact.",
       },
       {
         title: "Role",
-        desc: "Full-stack development and product implementation.",
+        desc: "Website design, development, deployment and enquiry email integration.",
       },
     ],
-  },
-  {
+  },  {
     id: 2,
     img: AirVoucherImg,
     title: "AirVoucher",
@@ -274,25 +273,26 @@ export const portfolio = [
   },
   {
     id: 6,
-    img: "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fanelelovesfood.co.za%2F?w=1200",
-    title: "Anele Loves Food",
-    category: "Other",
+    img: NkazimuloImg,
+    title: "Nkazimulo Holdings",
+    category: "Web Applications",
     description:
-      "Elegant, responsive website for a catering and private dining business, showcasing culinary experiences, events and galleries with an online quotation enquiry flow.",
-    technologies: ["Next.js", "React", "TypeScript", "Resend"],
-    link: "https://anelelovesfood.co.za/",
+      "Student accommodation platform for Braamfontein with apartments, studios and shared rooms, per-room and per-bed pricing, map search and an owner dashboard.",
+    technologies: ["Angular 20", "ASP.NET Core 8", "PostgreSQL", "Tailwind CSS"],
+    link: "https://www.nkazimuloproperties.co.za",
     linkLabel: "Live Site",
     details: [
       {
         title: "Focus",
-        desc: "Catering and private dining services, photo gallery, quote requests and WhatsApp contact.",
+        desc: "Listing search and filters, owner listing management and admin approval.",
       },
       {
         title: "Role",
-        desc: "Website design, development, deployment and enquiry email integration.",
+        desc: "Full-stack development and product implementation.",
       },
     ],
   },
+
 ];
 
 export const themes = [
